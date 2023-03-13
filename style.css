@@ -259,8 +259,5 @@ input[type=checkbox]:checked:after {
         font-size: 15px;
         font-weight: bold;
     }
-    .display__container{
-        width: 110%;
-        margin: auto;
-    }
+    
 }
