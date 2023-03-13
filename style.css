@@ -243,15 +243,24 @@ input[type=checkbox]:checked:after {
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     .container{
-        width: 70%;
+        width: 90%;
     }
     .heading{
-        font-size: 25px;
+        font-size: 20px;
     }
     [data-GeneratePassword]{
         
         font-size: 16px;
+    }
+     .checkBox {
+        
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .display__container{
+        width: 110%;
+        margin: auto;
     }
 }
